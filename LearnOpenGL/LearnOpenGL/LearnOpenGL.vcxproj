@@ -145,10 +145,14 @@
     <ClCompile Include="..\..\..\..\..\..\..\Downloads\glad\src\glad.c" />
     <ClCompile Include="chapter1_main.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="mlp_loader.cpp" />
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
+    <ClInclude Include="mlp_loader.h" />
+    <ClInclude Include="model.h" />
     <ClInclude Include="shader_s.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
@@ -159,6 +163,9 @@
     <None Include="chapter2.vs" />
     <None Include="chapter2_lightcube.fs" />
     <None Include="chapter2_lightcube.vs" />
+    <None Include="shaders\pbr_common.vert" />
+    <None Include="shaders\pbr_ground_truth.frag" />
+    <None Include="shaders\pbr_mlp.frag" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png" />

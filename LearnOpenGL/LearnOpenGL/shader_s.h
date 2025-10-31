@@ -13,6 +13,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include <vector>
 
 class Shader
 {
@@ -115,6 +116,24 @@ public:
     void setMat4(const std::string& name,  glm::mat4 trans) const
     {
         glUniformMatrix4fv(glGetUniformLocation(ID, name.c_str()), 1, GL_FALSE, glm::value_ptr(trans));
+    }
+    // ------------------------------------------------------------------------
+    void setFloatArray(const std::string& name, const std::vector<float>& values) const
+    {
+        if (values.empty())
+        {
+            return;
+        }
+        glUniform1fv(glGetUniformLocation(ID, name.c_str()), static_cast<GLsizei>(values.size()), values.data());
+    }
+    // ------------------------------------------------------------------------
+    void setVec3Array(const std::string& name, const std::vector<glm::vec3>& values) const
+    {
+        if (values.empty())
+        {
+            return;
+        }
+        glUniform3fv(glGetUniformLocation(ID, name.c_str()), static_cast<GLsizei>(values.size()), glm::value_ptr(values[0]));
     }
 
 private:
