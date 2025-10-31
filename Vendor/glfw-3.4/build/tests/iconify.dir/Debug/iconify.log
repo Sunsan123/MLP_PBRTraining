@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/a/OneDrive/Learn/API/OpenGL/LearnOpenGL/Vendor/glfw-3.4/tests/CMakeLists.txt
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): warning MSB8065: 项“C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Vendor\glfw-3.4\tests\CMakeLists.txt”的自定义生成成功，但尚未创建指定的输出“c:\users\a\onedrive\learn\api\opengl\learnopengl\vendor\glfw-3.4\build\tests\cmakefiles\generate.stamp”。这可能会导致增量生成无法正常工作。
+  iconify.c
+  getopt.c
+  正在生成代码...
+  iconify.vcxproj -> C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Vendor\glfw-3.4\build\tests\Debug\iconify.exe

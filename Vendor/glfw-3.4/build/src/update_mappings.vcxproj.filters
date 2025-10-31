@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Vendor\glfw-3.4\build\CMakeFiles\05d3f06ea694f2923388e0aeff6c74cf\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Vendor\glfw-3.4\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Vendor\glfw-3.4\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Vendor\glfw-3.4\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Vendor\glfw-3.4\build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{72E86AAC-31C0-3E16-A3AD-83A7C453698D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6A3011A3-6E51-3C04-A40D-4735C3DC7559}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

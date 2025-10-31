@@ -1,0 +1,10 @@
+^C:\USERS\A\ONEDRIVE\LEARN\API\OPENGL\LEARNOPENGL\VENDOR\GLFW-3.4\BUILD\CMAKEFILES\EB9539241ECEA982ED0886EDC8EC9450\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/a/OneDrive/Learn/API/OpenGL/LearnOpenGL/Vendor/glfw-3.4 -BC:/Users/a/OneDrive/Learn/API/OpenGL/LearnOpenGL/Vendor/glfw-3.4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/a/OneDrive/Learn/API/OpenGL/LearnOpenGL/Vendor/glfw-3.4/build/GLFW.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
