@@ -78,11 +78,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Depend\Include;C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Depend\Libs;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Depend\Libs;C:\Users\a\OneDrive\Learn\API\OpenGL\LearnOpenGL\Depend\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\Depend\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\..\Depend\Include;$(ProjectDir)..\..\Vendor\glfw-3.4\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(ProjectDir)..\..\Depend\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\..\Depend\Include;$(ProjectDir)..\..\Vendor\glfw-3.4\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -142,7 +144,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Downloads\glad\src\glad.c" />
+    <ClCompile Include="glad.c" />
     <ClCompile Include="chapter1_main.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="model.cpp" />
